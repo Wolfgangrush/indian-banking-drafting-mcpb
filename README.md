@@ -30,7 +30,6 @@ Claude Desktop App ≥ 0.10.0 · Python ≥ 3.10 · `pandoc` · `pdftotext` (opt
 Zero data collection. Three-layer privacy firewall. **<https://wolfgangrush.github.io/privacy/>**
 
 
-
 ## Architecture · how the six agents work
 
 This connector runs a strict six-agent pipeline locally on your machine:
@@ -101,6 +100,16 @@ This is the connector's contribution to your **Section 8(5) DPDP Act 2023** safe
 > only. Real values are re-substituted at the final docx render step on the
 > user's local machine. No real identifying data leaves the case folder.
 
+## Examples
+
+Three example prompts that demonstrate core functionality. Full prompt text with expected tool sequence is in `SAMPLE-CASES/README.md`.
+
+- *"Draft a SARFAESI Section 13(2) demand notice for a non-performing asset."*
+- *"Draft a SARFAESI Section 13(4) symbolic possession notice with statutory recitals."*
+- *"Draft an application before the Debts Recovery Tribunal under Section 17 of the SARFAESI Act."*
+
+See `SAMPLE-CASES/README.md` for the full prompt text and the expected tool-call sequence the Anthropic reviewer can use to exercise the pipeline end-to-end.
+
 ## License
 
-MIT. **Publisher:** Rushikesh R. Mahajan publishing as Wolfgang Rush · advrushikeshravindramahajan@gmail.com · <https://github.com/Wolfgangrush/indian-banking-drafting-mcpb>
+MIT. **Publisher:** Wolfgang Rush · wolfgangrush@gmail.com · <https://github.com/Wolfgangrush/indian-banking-drafting-mcpb>

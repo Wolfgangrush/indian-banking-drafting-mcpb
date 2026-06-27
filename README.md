@@ -1,3 +1,23 @@
+<div align="center">
+
+<img src="docs/banner.png" width="820"/>
+
+**Local-first drafting connector for Indian Banking forums — DRT, DRAT, NCLT and Civil Court.**
+
+Visit the live site: [wolfgangrush.github.io](https://wolfgangrush.github.io)
+
+</div>
+
+<div align="center">
+
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![Pipeline](https://img.shields.io/badge/pipeline-6%20agents-blue.svg)
+![Forums](https://img.shields.io/badge/forums-DRT%20·%20DRAT%20·%20NCLT%20·%20Civil-orange.svg)
+![Local-first](https://img.shields.io/badge/local--first-yes-success.svg)
+
+</div>
+
+
 # wolfgang_rush — Indian Banking & DRT Drafting
 
 **MCPB Desktop Extension** for banking + DRT + SARFAESI + NI Act 138 + IBC drafting work.
